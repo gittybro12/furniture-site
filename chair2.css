@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 60%;
+}
+.part1{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+   
+   
+}
+.part1 .text1{
+    margin: 210px 0 0 0px;
+}
+.text1 h1, p, button{
+    margin-bottom: 30px;
+}
+.text1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.img1 img{
+    border-radius: 20px;
+}
+.text1 button{
+    width: 500px;
+    text-align: start;
+    padding: 20px 0 20px 10px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 600;
+}
+.text1 button:hover{
+    text-align: center;
+    outline: none;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+.gen{
+    display: flex;
+    gap: 150px;
+    width: 100%;
+   
+}
+.part2{
+    margin-top: 150px;
+}
+.part2 .h1{
+    margin-bottom: 70px;
+}
+.gen h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.gen p{
+font-size:17px ;
+}
+.card{
+    display: flex;
+    background-color: darkgreen;
+    gap: 50px;
+    border-radius: 20px;
+    margin-top: 150px;
+    
+}
+.text2 h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: white;
+}
+.card img{
+    border-radius: 20px; 
+    margin: 40px;
+}
+.text2 p{
+ /* margin-bottom: 40px; */
+ font-size: large;
+ color: white;
+ font-style: italic;
+ font-weight: 600;
+}
+.text2{
+    margin-top: 80px;
+    height: 10px;
+    padding-right: px;
+}
+.gen2{
+    display: flex;
+    gap: 70px;
+}
+.part3{
+    margin-top: 100px;
+}
+.part3 .gosh{
+    margin-bottom: 60px;
+}
+.cardo{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.free{
+    margin-left: 25px;
+}
+.black{
+    color: black;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    
+}
+.phew{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 30px 0px;
+}
+li{
+    margin-bottom: 30px;
+}
+.cardo img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cardo button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: white;
+}
+.cardo button:hover{
+    background-color: lightgreen;
+    color: black;
+    outline: none;
+    border: 1px solid lightgreen;
+}
+.phew p{
+    font-size: 30px;
+    font-weight: 550;
+}
